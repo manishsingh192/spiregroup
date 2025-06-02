@@ -47,6 +47,7 @@ const HomeAppBar = () => {
         { text: 'About', path: '/about', icon: <InfoIcon /> },
         { text: 'Career', path: '/career', icon: <WorkIcon /> },
         { text: 'Contact', path: '/contact', icon: < ContactPageIcon /> },
+        { text: 'Contact', path: '/contact', icon: < ContactPageIcon /> },
     ];
 
     return (

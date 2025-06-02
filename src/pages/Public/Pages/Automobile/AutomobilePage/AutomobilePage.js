@@ -110,7 +110,7 @@ const AutomobilePage = ({ window }) => {
                 </Button>
                 {renderMenuItems(anchorEl, handleMenuClose, activeItem, handleNavItemClick)}
             </React.Fragment>
-        ) : (
+              ) : (
             <Button
                 key={item.label}
                 component={Link} // Use Link component for routing

@@ -1,6 +1,6 @@
 import React from 'react';
 import PublicRoutes from '../router/routes/PublicRoute';
-import AutomobileRoute from './routes/AutomobileRoute';
+// import AutomobileRoute from './routes/AutomobileRoute';
 
 const MainRouter = () => {
     return (

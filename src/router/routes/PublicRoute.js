@@ -13,9 +13,11 @@ import Contact from '../../pages/Public/Pages/Automobile/AutomobilePage/Pages/Co
 import Career from '../../pages/Public/Pages/Automobile/AutomobilePage/Pages/Career';
 import AerospacePage from '../../pages/Public/Pages/Aerospace/AerospacePage/AerospacePage';
 import ItTechnoPage from '../../pages/Public/Pages/ItTechno/ItTechnoPage/ItTechnoPage'
-import TelecomPage from '../../pages/Public/Pages/Telecom/TelecomPage/TelecomPage'
+// import BlogServicesPage from '../../pages/Public/Pages/Telecom/Blog/BlogServicesPage'
 import ManufactPage from '../../pages/Public/Pages/Manufact/ManufactPage/ManufactPage';
 import HomeExp from '../../pages/Public/Pages/Home/HomeExplore/HomeExp';
+import BlogServicesPage from '../../pages/Public/Pages/blog/BlogServicesPage';
+// import BlogServicesPage from '../../pages/Public/Pages/Telecom/Blog/BlogServicesPage';
 
 const PublicRoutes = () => {
     return (
@@ -31,11 +33,12 @@ const PublicRoutes = () => {
                     <Route path='/automobilepage' element={<HomeAutomobile />} />
                     <Route path='/aerospacepage' element={<AerospacePage />} />
                     <Route path='/ittechnopage' element={<ItTechnoPage />} />
-                    <Route path='/telecommunicationpage' element={<TelecomPage />} />
+                    {/* <Route path='/blogservicespage' element={<BlogServicesPage />} /> */}
                     <Route path='/manufactpage' element={<ManufactPage />} />
                     <Route path='/about' element={<Aboutus />} />
                     <Route path='/career' element={<Career />} />
                     <Route path='/contact' element={<Contact />} />
+                    <Route path='/blogservicespage' element={<BlogServicesPage />} />
                 </Route>
 
             </Routes>
